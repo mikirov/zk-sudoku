@@ -1,6 +1,9 @@
+mod commitment;
+mod error;
+mod prover;
+mod structs;
+mod utils;
+mod verifier;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-}
+pub use prover::Prover;
+pub use verifier::Verifier;
